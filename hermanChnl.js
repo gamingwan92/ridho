@@ -2292,7 +2292,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-                anu = `_Selamat Datang Di Herman Botz_
+                anu = `_Selamat Datang Di Wz BOT Official_
 
 *Group Menu*
 _${prefix}linkgroup_
@@ -2536,7 +2536,7 @@ _${prefix}bcall [text]_
 _${prefix}setppbot [image]_
 
 
-H E R M A N     B O T Z   2022`
+WZ BOT OFFICIAL`
                 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./lib/hermanChnl.jpg') }, { upload: hermanChnl.waUploadToServer })
                 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
